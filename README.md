@@ -27,6 +27,8 @@ python -m streamlit run app.py
 This opens the app at http://localhost:8501. Upload an image of a fruit, vegetable, or nut to get a prediction with confidence score and nutrition info.
 
 ## Project Structure
+
+```text
 FoodNetAI/
 ├── app.py                  # Streamlit GUI
 ├── config.json             # Training hyperparameters
@@ -37,6 +39,7 @@ FoodNetAI/
 │   ├── preprocess.py       # Dataset loading and preprocessing
 │   └── train.py            # Model architecture, training, evaluation
 └── results/                # Training curves, confusion matrices, comparison plots
+```
 
 ## Model Details
 - Input size: 100x100x3
