@@ -1,0 +1,7 @@
+@"
+venv/
+__pycache__/
+*.pyc
+mlruns/
+.streamlit/
+"@ | Set-Content .gitignore
