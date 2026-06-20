@@ -1,0 +1,13 @@
+{
+  "img_size": [100, 100],
+  "batch_size": 32,
+  "random_seed": 42,
+  "test_size": 0.30,
+  "val_split_of_temp": 0.50,
+  "phase1_epochs": 15,
+  "phase1_lr": 0.001,
+  "phase2_epochs": 10,
+  "phase2_lr": 0.00001,
+  "unfreeze_layers": 30,
+  "custom_cnn_epochs": 15
+}
